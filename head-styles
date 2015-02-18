@@ -1,0 +1,14 @@
+<!-- icon fonts ---------->
+<link rel="stylesheet" href="/assets/css/fontello.css">
+<link rel="stylesheet" href="/assets/css/animation.css">
+<!--[if IE 7]><link rel="stylesheet" href="/assets/css/fontello-ie7.css"><![endif]-->
+<!-- end icon fonts ------>
+
+<link rel="stylesheet/less" type="text/css" href="/assets/css/styles.less" />
+<link rel="stylesheet/less" type="text/css" href="/assets/css/flexslider.less" />
+<link rel="stylesheet/less" type="text/css" href="/assets/css/magnific.less">
+
+<!-- Unite Gallery Styles     -->
+<link rel='stylesheet' href='/assets/ug/themes/default/ug-theme-default.less' type='text/css' />
+<link rel='stylesheet' href='/assets/ug/css/unite-gallery.less' type='text/css' />
+<!-- End Unite Gallery Styles -->
