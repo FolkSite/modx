@@ -1,6 +1,21 @@
-[[!FormIt@contacts?
+[[!FormIt?
     &emailTpl=`ContactsEmailChunk`
-    &redirectTo=`29`
+    &clearFieldsOnSuccess=`1`
+    &emailConvertNewlines=`1`
+    &emailHtml=`1`
+    &emailMultiWrapper=`[[+value]]`
+    &errTpl=`<span class="error">[[+error]]</span>`
+    &placeholderPrefix=`fi.`
+    &spamCheckIp=`1`
+    &spamEmailFields=`email`
+    &store=`1`          
+    &storeTime=`300`
+    &successMessage=`Сообщение отправлено`
+    &successMessagePlaceholder=`fi.successMessage`
+    &trimValuesBeforeValidation=`1`
+    &validate=`email:required,tel:required,text:required,name:required`
+    &validationErrorBulkTpl=`<li>[[+error]]</li>`
+    &validationErrorMessage=`<p class="error">В форме содержатся ошибки</p>`
 ]]
  
 [[!+fi.error_message:notempty=`<p>[[!+fi.error_message]]</p>`]]
