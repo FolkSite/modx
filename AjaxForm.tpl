@@ -1,7 +1,7 @@
 [[!AjaxForm?
   &snippet=`FormIt`
   &form=`contact-form`
-  &emailTo=`r@pronin.cc`
+  &emailTo=`my@email.cc`
   &hooks=`email,spam,FormItAutoResponder`
-  &emailSubject=`Лумбр Ламбр. Письмо с сайта.`
+  &emailSubject=`Название сайта. Письмо с сайта.`
 ]]
