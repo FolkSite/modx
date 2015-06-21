@@ -1,0 +1,14 @@
+<item>
+    <title>[[+pagetitle]]</title>
+    <link>[[~[[+id]]?scheme=`full`]]</link>
+    <pubDate>[[+publishedon:date=`%a, %d %b %Y %H:%M:%S %z`]]</pubDate>
+    <description>
+        <![CDATA[
+          [[+tv.thumbnail-small:is=``:then=`<a href="[[~[[+id]]]]" title="[[+pagetitle]]"><img align="center" width="100%" height="auto" src="[[+tv.thumbnail-big:phpthumbon=`w=800&h=800&zc=1`]]" alt="[[+pagetitle]]"></a>`:else=`<a href="[[~[[+id]]]]" title="[[+pagetitle]]"><img align="center" width="100%" height="auto" src="[[+tv.thumbnail-small:phpthumbon=`w=800&h=800&zc=1`]]" alt="[[+pagetitle]]"></a>`]]
+          [[+introtext:default=`[[+content:ellipsis=`400`]]`]]
+        ]]>
+    </description>
+    <category>[[#[[+parent]].pagetitle]]</category>
+    
+    <guid>[[~[[+id]]?scheme=`full`]]</guid>
+</item>
