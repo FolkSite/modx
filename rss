@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xml:lang="udm-UDM">
+	<channel>
+		<title>[[++site_name]]</title>
+		<link>[[~[[*id]]?scheme=`full`]]</link>
+		<description>Удмуртский молодежный журнал</description>
+		<language>udm</language>
+		<copyright>© 2015 Удмуртский молодежный журнал «Инвожо»</copyright>
+		<category>Magazines</category>
+		<ttl>60</ttl>
+		<pubDate>[[+publishedon:date=`%a, %d %b %Y %H:%M:%S %z`]]</pubDate>
+		<lastBuildDate>[[!getDate:date=`%a, %d %b %Y %H:%M:%S %z`]]</lastBuildDate>
+
+		[[!pdoPage?
+			&parents=`372, 12`
+			&tpl=`rss-item`
+			&hideContainers=`1`
+			&limit=`50`
+			&processTVs=`1`
+			&includeTVs=`thumbnail-small, thumbnail-big`
+	    ]]
+
+	</channel>
+</rss>
